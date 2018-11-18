@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === '$indexhelp') {
-    	message.reply('');
+    	message.reply('Do $indexfull for the list of the full release versions of Minecraft Java.');
   	}
 });
 
